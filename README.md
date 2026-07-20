@@ -6,6 +6,16 @@ synchronisé automatiquement, historique des dernières actions.
 
 Construit au-dessus du CLI officiel `proton-drive` (pas de SDK non officiel).
 
+<img width="1780" height="30" alt="Proton_drive_GUI__image2" src="https://github.com/user-attachments/assets/3f753337-3123-4e21-a4d0-b3114d597ab3" />
+
+
+<img width="382" height="426" alt="Proton_drive_GUI__image1" src="https://github.com/user-attachments/assets/45673170-e76b-4733-aa58-b032c806a068" />
+
+
+<img width="555" height="306" alt="image" src="https://github.com/user-attachments/assets/42c05402-a224-4610-b8b7-28928b10116d" />
+
+
+
 ## ⚠️ À lire avant de lancer pour de vrai
 
 - **Pas de synchro temps réel.** Le CLI Proton Drive n'expose pas d'API
