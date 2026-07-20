@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Proton Drive Sync
+Comment=Synchronisation Proton Drive en tâche de fond
+Exec=python3 /home/user/proton/daemon.py
+Icon=/home/user/proton/protondrive-sync.svg
+Terminal=false
+Categories=Network;FileTransfer;
+StartupWMClass=fr.andytoys.protondrivesync
+X-GNOME-Autostart-enabled=true
