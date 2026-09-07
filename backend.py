@@ -122,7 +122,7 @@ def upload(local_paths: List[str], parent_path: str,
 
 
 def download(remote_paths: List[str], local_folder: str,
-             file_strategy: str = "replace", folder_strategy: str = "merge"):
+             file_strategy: str = "remove", folder_strategy: str = "merge"):
     return _run_json([
         "filesystem", "download", "-j",
         "-f", file_strategy, "-d", folder_strategy,
