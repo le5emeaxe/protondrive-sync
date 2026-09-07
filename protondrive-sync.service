@@ -1,0 +1,12 @@
+[Unit]
+Description=Proton Drive background sync (tray)
+After=graphical-session.target
+
+[Service]
+WorkingDirectory=/home/pruniaux/Projects/proton
+ExecStart=/usr/bin/python3 /home/pruniaux/Projects/proton/daemon.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target
