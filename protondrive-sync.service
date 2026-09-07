@@ -4,7 +4,7 @@ After=graphical-session.target
 
 [Service]
 WorkingDirectory=/home/pruniaux/Projects/proton
-ExecStart=/usr/bin/python3 /home/pruniaux/Projects/proton/daemon.py
+ExecStart=/usr/bin/python3 ~/Projects/proton/daemon.py
 Restart=on-failure
 RestartSec=5
 
